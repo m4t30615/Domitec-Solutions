@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Domitec Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body class="article">
+
+    <article>
+
+        <header class="header">
+            <nav>
+                <div class="titulo"><a href="index.html">Domitec Solutions</a></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="section1">
+            <h2 class="textoprincipal">Contáctanos para recibir soporte técnico</h2>
+        </section>
+
+        <section class="section2">
+            <center>
+                <h3><box-icon name='message-dots' color="white"></box-icon> Envíanos tu mensaje</h3>
+            </center>
+
+            <form class="contact-form" action="https://formspree.io/f/mpwkaqqq" method="POST">
+                <label>Nombre completo</label>
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+
+                <label>Correo electrónico</label>
+                <input type="email" name="correo" placeholder="tucorreo@ejemplo.com" required>
+
+                <label>Mensaje</label>
+                <textarea name="mensaje" placeholder="Cuéntanos qué necesitas..." rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <br>
+            <center>
+                <h3>O comunícate directamente con nosotros:</h3>
+                <p><box-icon name='whatsapp' type='logo' color='white'></box-icon> <a
+                        href="https://wa.link/l171p3">WhatsApp</a></p>
+                <p><box-icon name='instagram' type='logo' color='white'></box-icon> <a
+                        href="https://www.instagram.com/domitec_solutions/">Instagram</a></p>
+                <p><box-icon name='facebook' type='logo' color='white'></box-icon> <a
+                        href="https://www.facebook.com/profile.php?id=61581426359271&sk=about">Facebook</a></p>
+            </center>
+        </section>
+
+        <section class="map-section">
+            <figure class="knowledge__picture">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.2781446805593!2d-75.39793622583984!3d6.485209423840062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4423e1a9d29b2d%3A0xf69b4e798e89a81!2sDonmat%C3%ADas%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1731029377123!5m2!1ses-419!2sco"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </figure>
+        </section>
+
+    </article>
+
+</body>
+
+</html>
