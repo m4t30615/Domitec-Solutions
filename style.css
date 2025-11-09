@@ -1,5 +1,5 @@
 .article {
-    background-image: url(/img/pngtree-technology-and-business-fusion-black-keyboard-with-formational-keys-in-3d-image_3623743.jpg);
+    background-image: url("./img/2.jpg");
 }
 
 .header {
@@ -7,7 +7,8 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-image: url(/img/1.png); /*612x612*/
+    background-image: url("./img/1.png")
+        /*612x612*/
 }
 
 nav {
