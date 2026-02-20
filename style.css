@@ -1,0 +1,160 @@
+.article {
+    background-image: url("./img/2.jpg");
+}
+
+.eso{
+    center
+}
+
+.header {
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url("./img/1.png")
+        /*612x612*/
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.titulo {
+    margin-right: auto;
+}
+
+.titulo a {
+    color: rgb(37, 216, 243);
+    font-size: 20px;
+}
+
+.section1 {
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-size: 200%;
+    padding: 5px;
+}
+
+.section2 {
+    color: aqua;
+    font-size: 150%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* Espaciado y alineación de los iconos Boxicons */
+/*
+.section2 box-icon {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+*/
+
+.section3 {
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.map-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.knowledge__picture {
+    width: 80%;
+    max-width: 900px;
+    aspect-ratio: 16/9;
+    margin: 0;
+    border: 4px solid #00f2ff;
+    border-radius: 12px;
+}
+
+.knowledge__picture iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 12px;
+}
+
+/* ====== CONTACT FORM ====== */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    color: white;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #00f2ff;
+    transform: scale(1.05);
+}
+
+/* ====== stilo del mensaje de confirmacion del envio del formulario ====== */
+
+.enviado-box {
+    color: #00ff7f;
+    background: rgba(0, 50, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.error-box {
+    color: #ff4d4d;
+    background: rgba(50, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
